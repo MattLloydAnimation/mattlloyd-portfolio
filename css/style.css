@@ -181,6 +181,12 @@ body {
     display: flex;
   }
 
+  .gallery {
+  grid-template-columns: repeat(2, 1fr);
+  padding: 0 1rem;
+  gap: 1rem;
+}
+
   .video-gallery {
     padding: 1.5rem;
   }
