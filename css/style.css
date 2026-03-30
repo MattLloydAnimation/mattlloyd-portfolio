@@ -187,7 +187,7 @@ body {
 }
 
   .gallery {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
+    grid-template-columns: repeat(2, 1fr) !important;
     gap: 1rem;
     padding: 0 1rem;
   }
