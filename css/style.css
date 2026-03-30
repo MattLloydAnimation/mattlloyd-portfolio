@@ -181,11 +181,6 @@ body {
     display: flex;
   }
 
-  .page-content {
-  padding-left: 1rem;
-  padding-right: 1rem;
-}
-
   .video-gallery {
     padding: 0 1rem;
   }
@@ -199,7 +194,12 @@ body {
   grid-template-columns: repeat(2, 1fr);
   gap: 1rem;
   padding: 0 1rem;
-}
+  }
+
+  .page-content {
+  padding-left: 1rem;
+  padding-right: 1rem;
+  }
 
 }
 
