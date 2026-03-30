@@ -186,12 +186,6 @@ body {
   padding-right: 1rem;
 }
 
-  .gallery {
-    grid-template-columns: repeat(2, 1fr) !important;
-    gap: 1rem;
-    padding: 0 1rem;
-  }
-
   .video-gallery {
     padding: 0 1rem;
   }
@@ -199,6 +193,13 @@ body {
   .video-item {
     margin-bottom: 2rem;
   }
+
+  .gallery-page .gallery {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+  padding: 0 1rem;
+}
 
 }
 
